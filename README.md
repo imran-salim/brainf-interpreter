@@ -1,5 +1,4 @@
 # brainf*** interpreter
-#
 | Command | Description |
 | ------ | ------ |
 | > | Move the pointer to the right. |

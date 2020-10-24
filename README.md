@@ -9,3 +9,5 @@
 | , | Input a character and store it in the cell at the pointer. |
 | [ | Jump past the matching ] if the cell under the pointer is 0. |
 | ] | Jump back to the matching [ if the cell under the pointer is non-zero. |
+
+Currently a work-in-progress.

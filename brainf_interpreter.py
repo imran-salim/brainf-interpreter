@@ -30,6 +30,7 @@ head = TAPE_START
 #        return TAPE_START
 
 def interpret_brainf():
+    # check if file is a brainf*** file
     filename = list(sys.argv)[1]
     if (filename == ''):
         sys.exit('brainf programs have the filename extension ".b" or ".bf". Please provide a brainf program.')
@@ -39,6 +40,7 @@ def interpret_brainf():
     program = open(filename)
     cmds = []
 
+    # extract brainf*** commands from the file
     for line in program:
         ln = ''.join(line.split())
         for c in ln:

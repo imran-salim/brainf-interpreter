@@ -10,4 +10,4 @@
 | [ | Jump past the matching ] if the cell under the pointer is 0. |
 | ] | Jump back to the matching [ if the cell under the pointer is non-zero. |
 
-Currently a work-in-progress.
+The current state of the project takes a file with the correct file extension and extracts all the Brainf*** commands.
